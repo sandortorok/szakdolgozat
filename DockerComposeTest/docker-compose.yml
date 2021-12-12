@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mysql_database:
+    image: "mysql:latest"
+    environment:
+      MYSQL_ROOT_PASSWORD: "sakkiraly11"
+      MYSQL_DATABASE: AmmoniaDB
+  web_test:
+    image: "nginx:latest"

@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+    color: rgba(0, 15, 20, 0.8);
+}
+h1 {
+    text-align: center;
+    color: rgba(0, 15, 20, 0.8);
+    margin-top : 10%;
+}
+html,
+body {
+  max-height: max-content;
+}
+canvas {
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index:-1;
+
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
